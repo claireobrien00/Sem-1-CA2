@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GenericMetadata xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata SDMXGenericMetadata.xsd http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:genericmetadata="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Header>
+        <ID>ANI_ANIPES_A</ID>
+        <Test>false</Test>
+        <Name>ANI_ANIPES_A_4D_2022_0000 (apro_anip_esms)</Name>
+        <Prepared>2024-03-22T14:55:04</Prepared>
+        <Sender id="4D0">
+            <Contact/>
+        </Sender>
+        <DataSetID>ANI_ANIPES_A_1711115705718</DataSetID>
+        <DataSetAction></DataSetAction>
+        <Extracted></Extracted>
+        <ReportingBegin>2022-01-01T00:00:00</ReportingBegin>
+        <ReportingEnd>2022-12-31T00:00:00</ReportingEnd>
+        <DataSetAgency>ESTAT</DataSetAgency>
+    </Header>
+    <genericmetadata:MetadataSet>
+        <genericmetadata:MetadataStructureRef>ESMS_MSD</genericmetadata:MetadataStructureRef>
+        <genericmetadata:MetadataStructureAgencyRef>ESTAT</genericmetadata:MetadataStructureAgencyRef>
+        <genericmetadata:ReportRef>ESMS_REPORT_FULL</genericmetadata:ReportRef>
+        <genericmetadata:AttributeValueSet>
+            <genericmetadata:TargetRef>FULL_ESMS</genericmetadata:TargetRef>
+            <genericmetadata:TargetValues>
+                <genericmetadata:ComponentValue component="TIME_PERIOD" object="TimeDimension">2022-A0</genericmetadata:ComponentValue>
+                <genericmetadata:ComponentValue component="DATA_PROVIDER" object="DataProvider">4D0</genericmetadata:ComponentValue>
+                <genericmetadata:ComponentValue component="DATAFLOW" object="DataFlow">ANI_ANIPES_A:1.0</genericmetadata:ComponentValue>
+            </genericmetadata:TargetValues>
+            <genericmetadata:ReportedAttribute conceptID="CONTACT">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_ORGANISATION">
+                    <genericmetadata:Value>&lt;p&gt;Eurostat, the statistical office of the European Union.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="ORGANISATION_UNIT">
+                    <genericmetadata:Value>&lt;p&gt;E1: Agriculture and fisheries&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_NAME">
+                    <genericmetadata:Value>Restricted from publication</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                            <common:AnnotationText>YES</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_FUNCT">
+                    <genericmetadata:Value>Restricted from publication</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                            <common:AnnotationText>YES</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_MAIL">
+                    <genericmetadata:Value>&lt;p&gt;2920 Luxembourg LUXEMBOURG&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_EMAIL">
+                    <genericmetadata:Value>Restricted from publication</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                            <common:AnnotationText>YES</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_PHONE">
+                    <genericmetadata:Value>Restricted from publication</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                            <common:AnnotationText>YES</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_FAX">
+                    <genericmetadata:Value>Restricted from publication</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>RESTRICTED_FOR_PUBLICATION</common:AnnotationType>
+                            <common:AnnotationText>YES</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="META_UPDATE">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="META_CERTIFIED">
+                    <genericmetadata:Value>2023-03-15</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="META_POSTED">
+                    <genericmetadata:Value>2023-03-15</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="META_LAST_UPDATE">
+                    <genericmetadata:Value>2023-03-15</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="STAT_PRES">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="DATA_DESCR">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Animal production statistics cover three main sub-domains based on three pieces of relevant legislation and related gentlemen’s agreements.&lt;/p&gt;
+&lt;ul style="text-align: justify;"&gt;
+&lt;li&gt;&lt;strong&gt;Livestock and meat statistics&lt;/strong&gt; are collected under Regulation (EC) No 1165/2008. They cover meat production, as activity of slaughterhouses (monthly) and as other slaughtering (annual), meat production (gross indigenous production) forecast (semi-annual or quarterly), livestock statistics, including regional statistics. A quality report is also collected every third year.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Milk and milk product statistics&lt;/strong&gt; are collected under Decision 97/80/EC implementing Directive 96/16/EC. They cover farm production and utilisation of milk (annual), collection (monthly for cows’ milk) and production activity by dairies (annual) and statistics on the structure of dairies (every third year). An annual methodological report is also collected.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Statistics on eggs for hatching and farmyard poultry chicks&lt;/strong&gt; are collected under Regulation (EC) No 617/2008, implementing Regulation (EC) No 1234/2007 (Single CMO Regulation). They cover statistics on the structure (annual) and the activity (monthly) of hatcheries as well as reports on the external trade of chicks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="text-align: justify;"&gt;European Economic Area countries (EEA -&amp;nbsp;Iceland, Liechtenstein and Norway) are requested to provide milk statistics, with the exception of those related to home consumption, as stated in Annex XXI of the EEA Agreement.&amp;nbsp;Liechtenstein is exempted in the Agreement, only Norway is concerned.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The &lt;em&gt;Agreement between the European Community and the Swiss Confederation on cooperation in the field of statistics&lt;/em&gt; states that Switzerland must provide Eurostat with national milk statistics and, after 2013, livestock and meat statistics.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The same statistics are requested from the candidate and potential candidate&amp;nbsp;countries as &lt;em&gt;EU &lt;/em&gt;&lt;em&gt;acquis&lt;/em&gt;.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The statistical tables disseminated by Eurostat are organised, under Animal production (apro_anip), into three groups of tables on Milk and milk products (apro_mk), Livestock and meat (apro_mt) and&amp;nbsp;Poultry farming (apro_ec). This later label covers statistics on hatcheries and trade in chicks and on production of eggs for consumption. The regional animal production statistics collected on livestock (agr_r_animal) and on cows’ milk production on farms (agr_r_milk_pr) are disseminated separately.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Due to the change in the legal basis or in the methodology, the time series may be broken. This is indicated by a flag in the tables.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Further data about the same topics refer to repealed legal acts or agreements. The tables on statistics on the structure of rearing (apro_mt_str) and the number of laying hens (apro_ec_lshen) or of equidae (apro_mt_lsequi)&amp;nbsp;are therefore no longer updated. The same applies to some variables (external trade of animals and meat), periods (surveys in April or August) or items (number of horses) included in other tables.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The detailed content of each table and the reference to its legal definition is provided in the table below.&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&lt;strong&gt;Table 3.1: Data tables disseminated regarding animal production statistics&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%;" border="1" cellspacing="1" cellpadding="3"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; border: windowtext 1pt solid;" width="127"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Table&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Label&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Legal basis&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Legal reference&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Collection&amp;nbsp;frequency / time periods&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="132"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Deadline (Y=year)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Comments&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" colspan="7" width="899"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;Poultry farming (apro_ec)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_ec_poula&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Poultry (annual data)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Derived&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;annual&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_ec_poulm&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Poultry (monthly data)&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Reg. (EC) No 617/2008&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Annex III&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;monthly&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;45 days&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr valign="middle"&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_ec_strpoul&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Hatcheries - poultry other than hens&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" rowspan="2" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Reg. (EC) No 617/2008&lt;/p&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" rowspan="2" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Annex IV&lt;/p&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" rowspan="2" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;annual&lt;/p&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" rowspan="2" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;30 January Y + 1&lt;/p&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" rowspan="2" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_ec_strhen&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Hatcheries - hens&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_ec_eggcons&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Eggs for consumption&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0cm 5.4pt; text-align: center;" width="189"&gt;ESS agreement&lt;/td&gt;
+&lt;td style="padding: 0cm 5.4pt; text-align: center;" width="189"&gt;ESSC 2017/35/8 (11/2017)&lt;/td&gt;
+&lt;td style="padding: 0cm 5.4pt; text-align: center;" width="189"&gt;annual&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;30 June&amp;nbsp;Y + 1&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" colspan="7" width="899"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;Milk and milk products (apro_mk)&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mk_fatprot&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Fat contents and protein contents (cow's milk)&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" rowspan="2" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Dec. 97/80/EC&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" rowspan="2" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Tables B and H&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" rowspan="2" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;annual&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" rowspan="2" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;30 June&amp;nbsp;Y + 1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mk_pobta&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Milk collection (all milks) and dairy products obtained &amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mk_cola&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Cows'milk collection and products obtained (annual data)&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Derived&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" rowspan="2" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Table A&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;annual&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;From apro_mk_colm&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mk_colm&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Cows'milk collection and products obtained (monthly data)&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Dec. 97/80/EC&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;monthly&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;45 days&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mk_farm&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Production and utilization of milk on the farm&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Dec. 97/80/EC&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Table C&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;annual&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;30 September Y + 1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" colspan="7" width="899"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;Dairies structure - triennial (apro_mk_str)&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mk_strmk&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Milk collection - Distribution of enterprises by volume of annual collection &amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" rowspan="8" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Dec. 97/80/EC&lt;/p&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Table D&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" rowspan="8" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;every third year / year&lt;/p&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" rowspan="8" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;30 September Y + 1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" rowspan="8" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mk_strcc&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;Milk collection - Distribution of collection centres by volume of annual collection&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Table E&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mk_strmt&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Milk treated - Distribution of enterprises by volume of annual production&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Table F&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mk_strfp&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;Fresh products - Distribution of enterprises by volume of annual production&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Table G1&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mk_strdm&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Drinking milk - Distribution of enterprises by volume of annual production&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Table G2&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mk_strpd&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Powdered dairy products - Distribution of enterprises by volume of annual production&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Table G3&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mk_strbt&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Butter - Distribution of enterprises by volume of annual production&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Table G4&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mk_strch&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Cheese - Distribution of enterprises by volume of annual production&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Table G5&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; border: #f0f0f0;" colspan="7" width="899"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;Livestock and meat (apro_mt)&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" colspan="7" width="899"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;Meat production (apro_mt_p)&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mt_pwgtm&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Slaughtering in slaughterhouses (monthly data)&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Reg. (EC) No 1165/2008&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;monthly&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;60 days&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mt_pann&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Meat production and foreign trade (annual data) &amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Derived&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;annual&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mt_sloth&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Slaughtering, other than in slaughterhouses&amp;nbsp;(annual)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Reg. (EC) No 1165/2008&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;annual&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;30 June Y + 1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mt_pslothm&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Slaughtering, other than in slaughterhouses (monthly)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;CPSA agreement&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center;"&gt;&amp;nbsp;ASA/TE/673&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;monthly&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;4 months&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;Where important annual volumes&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mt_pheadm&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Meat production and foreign trade (numbers)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Reg. (EC) No 1165/2008&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;monthly&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;60 days&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;Foreign trade no longer updated&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mt_ppighq&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Pig production forecast (number)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Reg. (EC) No 1165/2008&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;semi-annual / quarter&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;15 February&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;15 September&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;15 September for 11 MSs&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mt_pcatlhs&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Bovine, sheep and goat production forecast (number)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Reg. (EC) No 1165/2008&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;semi-annual&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;15 February&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;15 September&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;September deadline for&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;13 MSs (bovine animals),&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;14 MSs(sheep) and&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;5&amp;nbsp;MSs (goats)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" colspan="7" width="899"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;Livestock (apro_mt_ls)&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td rowspan="2" valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mt_lscatl&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td rowspan="2" valign="middle"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Bovine population&lt;/p&gt;
+&lt;/td&gt;
+&lt;td rowspan="6" valign="middle"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Reg. (EC) No 1165/2008&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;May/June survey&lt;/p&gt;
+&lt;/td&gt;
+&lt;td rowspan="6" valign="middle"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;annual&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;15 September (provisional)&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;15 October (definitive)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;due by 12 MSs&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;November/December survey&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;15 February Y +1 &amp;nbsp;(provisional) 15 May Y +1&amp;nbsp;&amp;nbsp; (definitive)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mt_lsgoat&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Goat population&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;November/December survey&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;15 February Y + 1 &amp;nbsp;(provisional) 15 May Y +1&amp;nbsp;&amp;nbsp; (definitive)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;due by 5 MSs&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mt_lssheep&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Sheep population&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;November/December survey&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;15 February Y + 1 &amp;nbsp;(provisional) 15 May Y +1&amp;nbsp;&amp;nbsp; (definitive)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;due by 13 MSs&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td rowspan="2" valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;apro_mt_lspig&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td rowspan="2" valign="middle"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;Pig population&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;May/June survey&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;15 September (provisional)&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;15 October (definitive)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;due by 12 MSs&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;November/December survey&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;15 February Y + 1 &amp;nbsp;(provisional) 15 May Y +1&amp;nbsp;&amp;nbsp; (definitive)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="middle"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" colspan="7" width="899"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;Regional Agriculture Statistics (agr_r)&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;agr_r_animal&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;Animal populations (December) by NUTS 2 region (1 000 head)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Reg. (EC) No 1165/2008&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;November/December survey&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;15 February Y +1 &amp;nbsp;(provisional) 15 May Y +1&amp;nbsp;&amp;nbsp; (definitive)&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;NUTS 2 regions (DE and UK NUTS1)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="127"&gt;
+&lt;p style="margin: 0cm 0cm 0pt 14.2pt;"&gt;agr_r_milkpr&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="189"&gt;
+&lt;p style="text-align: left; margin: 0cm 0cm 0pt;" align="center"&gt;Production of cow's milk on farms by NUTS 2 regions (1 000 t)&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="102"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;Dec. 97/80/EC&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="98"&gt;
+&lt;p style="text-align: center; margin: 0cm 0cm 0pt;" align="center"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="132"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;30 September Y + 1&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding-bottom: 0cm; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm;" width="151"&gt;
+&lt;p style="margin: 0cm 0cm 0pt;"&gt;NUTS2 regions&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CLASS_SYSTEM">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Some&amp;nbsp;standard code lists cover the concepts over the domains. The list of items and their definition is in any case derived from the legislation, but the coding integrates different approaches. The following concepts&amp;nbsp;have been&amp;nbsp;integrated in a single list &lt;a href="https://webgate.ec.europa.eu/sdmxregistry/"&gt;agriprod&lt;/a&gt;:&lt;/p&gt;
+&lt;ul style="text-align: justify;"&gt;
+&lt;li&gt;Live animals&lt;/li&gt;
+&lt;li&gt;Meat and meat products&lt;/li&gt;
+&lt;li&gt;Dairy and other animal products (except meat)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="text-align: justify;"&gt;A handbook on concepts and definitions used for animal production statistics is provided in Annex 1.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Explicit size classes are used to describe the dairy entreprises by yearly quantities (t) collected, processed or produced and the hatcheries (egg incubation capacity).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Regional data&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The territorial classification of regional data (tables agr_r_milkpr and agr_r_animal)&amp;nbsp;is broken down according to the &lt;a title="NUTS classification" href="http://ec.europa.eu/eurostat/web/nuts/overview" target="_blank"&gt;NUTS classification&lt;/a&gt;&amp;nbsp;for Member States and to Eurostat’s &lt;a href="https://ec.europa.eu/eurostat/documents/345175/629341/NUTS2021.xlsx"&gt;list of Statistical Regions for Candidate countries and EFTA countries&lt;/a&gt;.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COVERAGE_SECTOR">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Statistics on livestock, on farm production, on other slaughtering and utilisation of milk cover agricultural holdings in Member States. &lt;br /&gt;The minimal coverage for livestock sample surveys is of at least 95&amp;nbsp;% of the national population with reference to the last survey on the structure of agricultural holdings (FSS).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Livestock surveys may be conducted independently by livestock category or as a sub-set of items surveyed with a wider scope (livestock survey as a whole, farm production survey, annual census) or recorded with a wider objective in the case of registers (every animal owner). Depending on the design, some over-coverage can be observed.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Statistics on external trade in chicks are designed to reflect foreign trade in chicks from hatcheries with more than 1,000 incubation places.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Other animal production statistics cover EU plants whose activity is slaughtering, milk collection, milk product production or hatching fertilised eggs. The&amp;nbsp;surveys must cover exhaustively dairies representing 95&amp;nbsp;% of the cows’ milk collected by Member States, the balance being represented by sampling or other sources. The methodological questionnaire collected from Member States reports whether a correction is applied for cross-border collection of milk from dairy farms in a country by dairy enterprise in a neighbour country.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;See also Annex 1 for further explanations.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="STAT_CONC_DEF">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Among concepts used in animal production statistics (see Annex 1), some can be reported because of their specificity.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;Gross indigenous production (GIP) &lt;/strong&gt;is the number of animals slaughtered plus the balance of intra-Community and external trade for the same kind of live animals. GIP is thus the number of animals from a Member State (indigenous) apparently (gross) slaughtered or exported alive.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;Slaughtering &lt;/strong&gt;is measured through activity of slaughterhouses from 1 January 2009 (application of Regulation (EC) No 1165/2009), i.e. production of marketable meat for human consumption. Estimates of ‘other slaughtering’ can be added for a more accurate picture of meat production.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;Livestock population&lt;/strong&gt;&amp;nbsp;is accounted by categories that capture their rearing, either for fattening then slaughter, or for herd renewal, i.e. for breeding and/or milking.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;Milk statistics&lt;/strong&gt; are led by the concept of ‘&lt;strong&gt;national dairy&lt;/strong&gt;’, i.e. the dairy sector is considered as a single process, which internal flows are not (intended to be) taken into account.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Use of raw milk is followed through production of its two main components, fat and protein content. Milk processed is thus accounted for as an aggregate of &lt;strong&gt;UWM &lt;/strong&gt;(&lt;strong&gt;utilised whole milk&lt;/strong&gt;, with the full content of fat and proteins) and &lt;strong&gt;USM &lt;/strong&gt;(&lt;strong&gt;utilised skimmed milk&lt;/strong&gt;, with the full content of proteins,without fat). As&amp;nbsp;a process can&amp;nbsp;produce skimmed milk further to the main (fat) product and, in such a case, USM can be negative. This is especially the case for cream and butter production.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;Bovine animals&lt;/strong&gt; are domestic animals of the species &lt;em&gt;Bos taurus&lt;/em&gt; and &lt;em&gt;Bubalus bubalis&lt;/em&gt;, including hybrids like Beefalo. Clarification on the implementation of this definition led to the integration of buffaloes and hybrids into the category 'bovine animals'.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;Chickens&lt;/strong&gt; means all animals of species &lt;em&gt;Gallus gallus&lt;/em&gt;, including broilers and boiling hens. This concept was applied with Regulation (EC) No 1165/2008 on 1 January 2009.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Regional data&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;Region&lt;/strong&gt; means a sub-division of a Member State territory. Depending on the statistics, 'region' refers to:&lt;/p&gt;
+&lt;ul style="text-align: justify;"&gt;
+&lt;li&gt;NUTS 2 for milk production (table agr_r_milkpr), the NUTS reference being the version applicable on the date of data transmission.&lt;/li&gt;
+&lt;li&gt;NUTS 2, except for DE (NUTS1) for livestock statistics (table agr_r_animal).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="text-align: justify;"&gt;For data on the structure of hatcheries, a particular region (the most important) can be considered as representative of the national data in BG, EL, LV and AT.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="STAT_UNIT">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;&lt;strong&gt;Agricultural holdings&lt;/strong&gt; are the statistical units for livestock surveys and animal production statistics at farm level (milk production and meat). Depending on the statistics collected, a more precise definition can be used, based on their activity or their structure, e.g. dairy farms producing raw milk, or farms with livestock or with sheep or goats.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;Dairy enterprises -- &lt;/strong&gt;undertakings of two types:&lt;/p&gt;
+&lt;ul style="text-align: justify;"&gt;
+&lt;li&gt;Collection centres collect milk or cream and transfer it in whole or in part to other enterprises without any processing. They are often defined as &lt;em&gt;referred to in Article 2(2) of Council Directive 96/16/EC.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Dairies and agricultural holdings purchase milk or milk products from agricultural holdings or collection centres with a view to transforming them into milk products. They are often defined as &lt;em&gt;referred to in Article 2(1) of Council Directive 96/16/EC&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="text-align: justify;"&gt;Some enterprises process milk products obtained from a dairy as defined above, e.g. skimmed milk into milk powder or yogurt, and may appear to be excluded from the definition of dairy enterprises. Nevertheless, non-packed intermediate products are considered as raw products and such dairies are therefore covered as statistical units for the purpose of some statistics, whatever the enterprise supplying them.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;Slaughterhouses &lt;/strong&gt;are registered and approved establishments used for slaughtering and dressing animals whose meat is intended for human consumption. In countries in which ‘hygiene package’ is not fully implemented (slaughterhouses not registered or not approved by the EU can nevertheless produce for the local market) all slaughterhouses are covered.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;Hatcheries &lt;/strong&gt;are establishments for incubating eggs, hatching and supplying chicks (exceptionally almost hatched eggs).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;For some animal production statistics, the statistical units are not explicitly defined, i.e. they refer to all enterprises. This is the case for the statistics on trade&amp;nbsp;of chicks and this used to be the case for slaughtering statistics. Indirectly, the statistical units are the reporting enterprises dealing with one of parameters to be measured by the statistics.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="STAT_POP">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;The statistical population is the framework of the statistical units in the reference Member State or country for the reference period.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Nevertheless, data collection may be organised in a different way by a respondent other than the statistical unit. For instance, milk delivered by farms to dairies is accounted for by both units, and can be obtained more easily from dairies, of which there are fewer.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;For monthly milk statistics, the population covers the dairies collecting cows’ milk. The quantity of milk products processed may be&amp;nbsp;therefore underestimated compared to national production.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="REF_AREA">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;The reference area is the territory of the Member States as defined by &lt;a title="Decision 91/450/EEC" href="http://data.europa.eu/eli/dec/1991/450/2013-07-01"&gt;Decision 91/450/EEC&lt;/a&gt;. For non-EU countries, territory follows the definition agreed bi-laterally with Eurostat.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COVERAGE_TIME">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Data are presented in chronological series for each country and for the EU. The covered period varies according to the country, depending on the date of accession to the EU or of application of the legal requirements for statistics.&amp;nbsp;They are available at least for the EU Member States, depending on the date they became members of the EEC or EU, from legislation to repeal of the legal text and insofar as Member States comply with legislation.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Statistics are available, at least partly, since reference years 1960 (milk statistics), 1964 (meat statistics) and 1970 (livestock statistics and statistics on eggs for hatching and chicks) for the countries that were Member States at this time.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Further time periods may be available if collected on a volunteer basis, especially:&lt;/p&gt;
+&lt;ul style="text-align: justify;"&gt;
+&lt;li&gt;Data collected under a gentlemen’s agreement&lt;/li&gt;
+&lt;li&gt;Data collected for accessing and acceding countries&lt;/li&gt;
+&lt;li&gt;Data collected under other specific agreements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="text-align: justify;"&gt;The production forecast cover four or six&amp;nbsp;quarters for pigs,&amp;nbsp;three or four semesters for bovine animals, and two or zero semester for sheep and goat, depending on the size of the national livestock. At the end of&amp;nbsp;September, year N, the forecast must be available up to the end of: - year N+1 for bovine animals and - first half of year N+1 for pigs. At the end of February, the forecast regarding sheep and goats must be available up to the end of the year for the countries with&amp;nbsp;significant production.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="BASE_PER">
+                    <genericmetadata:Value>&lt;p&gt;Not&amp;nbsp;applicable.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="UNIT_MEASURE">
+                <genericmetadata:Value>&lt;p&gt;The units of measure are:&lt;/p&gt;
+&lt;table border="1" cellspacing="0" cellpadding="3"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;for livestock and gross indigenous production&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;td&gt;1000 heads&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;for slaughtering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;td&gt;1000 tonnes (carcass weight), 1000 heads&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;for milk statistics&lt;br /&gt;except for fat and protein content&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;td&gt;1000 tonnes&lt;br /&gt;tonnes or percentage&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;ul&gt;
+&lt;li&gt;for chicks and eggs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;1000 units (chicks and eggs for hatching)&lt;/p&gt;
+&lt;p&gt;million eggs (eggs for consumption)&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="REF_PERIOD">
+                <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;For non-cumulative variables such as stock or inventory variables, the reference date is&lt;/p&gt;
+&lt;ul style="text-align: justify;"&gt;
+&lt;li&gt;a given day during the period displayed in ‘Month’ for livestock (tables such as apro_mt_ls*),&lt;/li&gt;
+&lt;li&gt;on 31 December of the year indicated in ‘Time’ for annual and less frequent data (apro_ec_lshen, apro_ec_strpoul, apro_ec_strhen, tables like apro_mk_str* and like apro_mt_str*).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="text-align: justify;"&gt;For cumulative variables such as production or flows, the reference periods are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="text-align: justify;"&gt;the calendar month for data in tables apro_mk_colm apro_mt_pwgtm, apro_mt_pheadm and apro_ec_poulm,&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;the calendar quarter for GIP forecast for pigs in table apro_mt_ppighq (pig production forecast),&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;the calendar semester for other GIP forecast in table apro_mt_pcatlhs (bovine, sheep and goat production forecast),&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;the calendar year for all other animal production statistics.&lt;/li&gt;
+&lt;/ul&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="INST_MANDATE">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="INST_MAN_LA_OA">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;The legal acts currently applicable are:&lt;/p&gt;
+&lt;ul style="text-align: justify;"&gt;
+&lt;li&gt;&lt;a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:321:0001:0013:EN:PDF"&gt;Regulation (EC) No 1165/2008&lt;/a&gt; of the European Parliament and of the Council of 19 November 2008 concerning &lt;strong&gt;livestock and meat&lt;/strong&gt; statistics and repealing Council Directives 93/23/EEC, 93/24/EEC and 93/25/EEC. &lt;em&gt;OJ L 321, 1.12.2008, p. 1–13&lt;/em&gt;.&lt;br /&gt;Germany and Bulgaria were granted derogations from the application of this Regulation until 1 January 2010 or, in the case of statistics on sheep and goats, until 1 January 2011 (Commission Decision 2010/323/EU).&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1996L0016:20090420:EN:PDF"&gt;Directive 96/16/EC&lt;/a&gt; of 19 March 1996 on statistical surveys of &lt;strong&gt;milk and milk products&lt;/strong&gt;. &lt;em&gt;OJ L 78, 28.3.1996, p. 27–29.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1997D0080:20110324:EN:PDF"&gt;Decision 97/80/EC&lt;/a&gt; of 18 December 1996 laying down provisions for the implementation of Council Directive 96/16/EC on statistical surveys of &lt;strong&gt;milk and milk products&lt;/strong&gt;. &lt;em&gt;OJ L 24, 25.1.1997, p. 26–49.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:2008R0617:20110925:EN:PDF"&gt;Commission Regulation (EC) No 617/2008&lt;/a&gt; of 27 June 2008 laying down detailed rules for &lt;strong&gt;eggs for&amp;nbsp;hatching and farmyard poultry chicks&lt;/strong&gt; (&lt;em&gt;OJ L 168, 28.6.2008, p. 5–16&lt;/em&gt;) implementing Regulation (EC) No 1234/2007.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="text-align: justify;"&gt;The following agreements are also applicable:&lt;/p&gt;
+&lt;ul style="text-align: justify;"&gt;
+&lt;li&gt;Agreement on the &lt;strong&gt;European Economic Area&lt;/strong&gt; (OJ No L 1, 3.1.1994, p. 3; and EFTA States’ official gazettes), Annex XXI, regarding milk statistics&lt;/li&gt;
+&lt;li&gt;Agreement between the European Community and the &lt;strong&gt;Swiss Confederation&lt;/strong&gt; on cooperation in the field of statistics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="text-align: justify;"&gt;Finally some former legal texts and agreements were previously applied. When feasible, Eurostat ‘aligns’ the time series, possibly with an indication for breaks (flag ‘b’); otherwise, the series looks incomplete. In some cases, entire tables are no longer updated.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2014 CPSA agreement on estimates of monthly other slaughtering&lt;/li&gt;
+&lt;li&gt;2017 ESS Agreement on statistics of eggs for consumption&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;From reference year 2025 onwards, &lt;a href="http://data.europa.eu/eli/reg/2022/2379/oj"&gt;Regulation (EU) 2022/2379&lt;/a&gt; of the European Parliament and of the Council of 23 November 2022 on statistics on agricultural input and output will replace the above legislations and agreements.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Regional data&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;a href="http://data.europa.eu/eli/reg/2003/1059/2019-11-13"&gt;Regulation (EC) No 1059/2003&lt;/a&gt; of the European Parliament and of the Council of 26 May 2003 on the establishment of a common classification of territorial units for statistics (NUTS).&amp;nbsp;&amp;nbsp;OJ L 154, 21.6.2003, p. 1-41;.&amp;nbsp;&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="INST_MAN_SHAR">
+                    <genericmetadata:Value>&lt;p&gt;Not applicable.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="CONF">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="CONF_POLICY">
+                    <genericmetadata:Value>&lt;p&gt;&lt;a href="http://data.europa.eu/eli/dec/1991/450/2013-07-01"&gt;Regulation (EC) No 223/2009 on European statistics&lt;/a&gt; (recital 24 and Article 20(4)) of 11 March 2009 (OJ L 87, p. 164), stipulates the need to establish common principles and guidelines ensuring the confidentiality of data used for the production of European statistics and the access to those confidential data with due account for technical developments and the requirements of users in a democratic society.&lt;/p&gt;
+&lt;p&gt;A confidentiality charter for animal production statistics has been adopted in 2016 (below) and should lead to disseminate more EU totals from 2020 on.&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>FILE</common:AnnotationType>
+                            <common:AnnotationTitle>Confidentiality charter</common:AnnotationTitle>
+                            <common:AnnotationText>Annexes/apro_anip_esms_an_2.pdf</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONF_DATA_TR">
+                    <genericmetadata:Value>&lt;p&gt;The confidential data are identified as such by the Member States, based on their national rules to protect confidential information. Those data are protected from disclosure by agreed procedure. Where no more sophisticated rule is applied, any value derived from a confidential value is considered as confidential. The confidentiality charter (see 7.1.) is progressively implemented on the Animal Production Statistics data.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="REL_POLICY">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="REL_CAL_POLICY">
+                    <genericmetadata:Value>&lt;p&gt;Data are disseminated in the Eurostat public database&amp;nbsp;as soon as they are available.&lt;/p&gt;
+&lt;p&gt;The&amp;nbsp;release calendar indicates when the data users can expect access all the due data.&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>FILE</common:AnnotationType>
+                            <common:AnnotationTitle>Release calendar 2023</common:AnnotationTitle>
+                            <common:AnnotationText>Annexes/apro_anip_esms_an_4.pdf</common:AnnotationText>
+                        </common:Annotation>
+                        <common:Annotation>
+                            <common:AnnotationType>FILE</common:AnnotationType>
+                            <common:AnnotationTitle>Release calendar 2024</common:AnnotationTitle>
+                            <common:AnnotationText>Annexes/apro_anip_esms_an_5.pdf</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="REL_CAL_ACCESS">
+                    <genericmetadata:Value>&lt;p&gt;See item 8.1.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="REL_POL_US_AC">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;In line with the Community legal framework and the &lt;a href="https://ec.europa.eu/eurostat/documents/4031688/8971242/KS-02-18-142-EN-N.pdf/e7f85f07-91db-4312-8118-f729c75878c7" target="_blank"&gt;European Statistics Code of Practice&lt;/a&gt; Eurostat disseminates European statistics on Eurostat's website (see item 10 - 'Accessibility and clarity') respecting professional independence and in an objective, professional and transparent manner in which all users are treated equitably. The detailed arrangements are governed by the &lt;a href="https://ec.europa.eu/eurostat/documents/10186/9268011/IMPARTIAL_ACCESS_2014_JAN-EN.PDF.pdf" target="_blank"&gt;Eurostat protocol on impartial access to Eurostat data for users&lt;/a&gt;.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="FREQ_DISS">
+                <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Data dissemination usually follows data collection by a few days. Frequency is thus the same in both cases for a given data set.&lt;br /&gt;For most of the data collected, collection frequency is the time granularity of the data, i.e. monthly data are collected monthly and annual data annually.&lt;br /&gt;Annual totals provided in tables apro_mk_cola, apro_mt_pann and apro_ec_poula are disseminated at the same time as data for December.&lt;br /&gt;GIP forecasts for meat are collected twice a year or, for countries with a limited livestock population, annually.&lt;br /&gt;Data on the structure of dairy enterprises are collected every third year.&lt;/p&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="ACCESSIBILITY_CLARITY">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="NEWS_REL">
+                    <genericmetadata:Value>&lt;p&gt;News releases on-line.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="PUBLICATIONS">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline;"&gt;Publications&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Publications available in pdf format are accessible on Eurostat's website (Statistics / Agriculture and fisheries / Agriculture / Publications). Eurostat has published the &lt;a href="https://ec.europa.eu/eurostat/web/products-flagship-publications/-/ks-ha-22-001"&gt;Eurostat regional yearbook 2022&lt;/a&gt;.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The Directorate General on Agriculture and Rural Development (DG-AGRI) publishes regularly a &lt;a title="DG AGRI - Short-term outlook" href="http://ec.europa.eu/agriculture/markets-and-prices/short-term-outlook/index_en.htm" target="_blank"&gt;Short-term outlook&lt;/a&gt;.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline;"&gt;Statistics Explained&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Statistics Explained is an official Eurostat website presenting many statistical topics in an easily understandable way. Together, the articles make up an encyclopaedia of European statistics, completed by a statistical glossary clarifying all terms used and by numerous links to further information and the very latest data and metadata, a portal for occasional and regular users alike.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Animal production articles:&lt;/p&gt;
+&lt;ul style="text-align: justify;"&gt;
+&lt;li&gt;&lt;a title="Milk and milk product statistics" href="http://ec.europa.eu/eurostat/statistics-explained/index.php/Milk_and_milk_product_statistics" target="_blank"&gt;Milk and milk product statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Agricultural_production_-_livestock_and_meat"&gt;Agricultural production - livestock and meat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Poultry_statistics"&gt;Poultry statistics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Articles referring to animal production statistics&lt;/p&gt;
+&lt;ul style="text-align: justify;"&gt;
+&lt;li&gt;&lt;a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Agriculture_statistics_at_regional_level#Livestock_and_milk"&gt;Agriculture statistics at regional level: Livestock and milk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="text-decoration: underline;"&gt;&lt;strong&gt;Re-dissemination&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The Eurostat statistics are widely re-disseminated. For improving the market transparency, the &lt;a title="EU Milk Market Observatory" href="https://ec.europa.eu/info/food-farming-fisheries/farming/facts-and-figures/markets/overviews/market-observatories/milk" target="_blank"&gt;EU Milk Market Observatory&lt;/a&gt; provides for instance statistics on milk production and the &lt;a href="https://ec.europa.eu/info/food-farming-fisheries/farming/facts-and-figures/markets/overviews/market-observatories/meat_en"&gt;EU Meat Market Observatory&amp;nbsp;&lt;/a&gt;statistics on meat production or livestock.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="ONLINE_DB">
+                    <genericmetadata:Value>&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;The data on animal production statistics and statistics for regional production may be found on the Eurostat’s dissemination database under the link:&amp;nbsp;&lt;a href="https://ec.europa.eu/eurostat/data/database"&gt;https://ec.europa.eu/eurostat/data/database&lt;/a&gt; and under the following paths:&amp;nbsp;&lt;em&gt;Database / &lt;em&gt;(+) Data navigation tree / &lt;em&gt;(+) Database by themes /&amp;nbsp;&lt;/em&gt;&lt;/em&gt;(+) Agriculture, forestry and fisheries&amp;nbsp;/&amp;nbsp;&lt;em&gt;(+) &lt;strong&gt;Agriculture (agr)&lt;/strong&gt;&amp;nbsp;/ &lt;em&gt;(+) &lt;strong&gt;Agricultural production (apro)&lt;/strong&gt;&amp;nbsp;/&lt;/em&gt; &lt;/em&gt;(+) &lt;strong&gt;Animal production (apro_anip)&lt;/strong&gt; / &lt;em&gt;(+) Poultry farming (apro_ec), or &lt;/em&gt;(+) Milk and milk products (apro_mk), or (+) Livestock and meat (apro_mt)&lt;/em&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;This channel displays all the public Animal Production results.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="MICRO_DAT_ACC">
+                    <genericmetadata:Value>&lt;p&gt;Not applicable.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="DISS_OTHER">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;No other dissemination format.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="DOC_METHOD">
+                    <genericmetadata:Value>&lt;p&gt;Public documentation on methodology and legislation is available &lt;a href="https://circabc.europa.eu/ui/group/573637de-5c60-4b88-ba53-efbcb345e8a0/library/8def1e61-0cd8-4890-b36b-722bd73641fe?p=1&amp;amp;n=10&amp;amp;sort=modified_DESC"&gt;on-line&lt;/a&gt;.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="QUALITY_DOC">
+                    <genericmetadata:Value>&lt;p style="margin: 0cm 0cm 0pt; text-align: justify;"&gt;Member States provide Eurostat with a report on the quality of the data transmitted every third year under the current legislation on livestock and meat, and for the first time for reference year 2010.&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt; text-align: justify;"&gt;Member States send Eurostat an annual methodological questionnaire on milk statistics providing some quality indicators.&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt; text-align: justify;"&gt;This information may be disseminated to the public once this is agreed with Member States.&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt; text-align: justify;"&gt;The specific EU metadata files on livestock and meat statistics and on statistics of milk and milk products (see the links at the bottom of the present file) summarise the national quality reports and provide the direct links to them.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="QUALITY_MGMNT">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="QUALITY_ASSURE">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Animal production statistics are subject to the general quality assurance framework of Eurostat, where domain-specific quality assurance activities (the use of best practices, quality reviews, self-assessments, compliance monitoring) are carried out systematically.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="QUALITY_ASSMNT">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;&amp;nbsp;The latest quality review should provide findings and recommendations in 2019, for the whole process of all Eurostat animal production statistics. The following were recommended.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;1.1) A legal basis for monthly “Slaughtering other than in slaughterhouses” from annual to monthly. &lt;br /&gt;1.2) A legal bass for the “Eggs for human consumption”. &lt;br /&gt;2.1) A release calendar for the Animal production data.&lt;br /&gt;3.1) Metadata with more detailed information and maintain the metadata up-to-date. &lt;br /&gt;3.2) Final step-by-step process description. &lt;br /&gt;3.3) Improved particular quality concepts for Livestock and meat statistics. &amp;nbsp;&lt;br /&gt;3.4) New national quality reports for poultry statistics and summary (EU) quality report. &lt;br /&gt;3.5) New applicable Quality and performance Indicators and public existing QPIs.&lt;br /&gt;3.6) Additional or improved handbooks, guidelines, manuals, especially handbooks and manuals for Meat and livestock statistics and Poultry statistics. &lt;br /&gt;4.1) Statistics Explained article for Poultry statistics.&lt;br /&gt;4.2) Availabledata on “Eggs for consumption” in Eurobase.&lt;br /&gt;5.1) Validation rules for poultry statistics, shared with countries. &lt;br /&gt;5.2) Additional validation rules for Animal Production statistics, at national and Eurostat level.&amp;nbsp; &lt;br /&gt;6.1). EU aggregates based on already agreed methods [i.e. confidentiality charter]. &lt;br /&gt;7.1) Docuiment on the breaks in time series and comparability of data over time.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The initial and subsequent actions were conducted but, depending on the duration of the whole procedures, the public outcomes are not yet all available.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;For instance, establishing a new legislation / agree with Member States, collect, validate, analyse, disseminate national quality reports / develop, test, implement IT adhoc procedures require years.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="RELEVANCE">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="USER_NEEDS">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;The main users are other Directorates General of the European Commission (e.g. DG &lt;em&gt;Agriculture and rural development&lt;/em&gt; and DG &lt;em&gt;Health&lt;/em&gt;). However, there are other major users such as other European institutions, national administration services, national statistical institutes, other international organisations, agro-industry, producer groups, research institutes, journalists, third countries and the public in general. The objectives of these users vary, but animal production statistics are especially useful for market management/monitoring, production forecasts and policy-making in agriculture and food.&lt;/p&gt;
+&lt;p&gt;The user needs were re-assessed when drafting the &lt;a href="https://ec.europa.eu/eurostat/web/agriculture/methodology/strategy-beyond-2020"&gt;Strategy on agricultural statistics&amp;nbsp;for 2020 and beyond&lt;/a&gt; andthe subsequent EU legislation.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="USER_SAT">
+                    <genericmetadata:Value>&lt;p style="margin: 0cm 0cm 0pt;"&gt;Key users are well known and their needs are met. In addition, specific questions from individual users are answered.&lt;br /&gt;Eurostat conducts regular user surveys with a wider scope.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COMPLETENESS">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Since 2010, completeness has been measured regularly and discussed during meetings of the Working Party on Annual Production Statistics. Meanwhile it has been regularly improved.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;To reduce the burden on respondents, some statistics are collected less often in countries with limited importance in the EU totals. Statistics on bovine population are due only once a year for the Member States where it is below 1.5 million head. Statistics on&amp;nbsp;pig population are due only once a year for the Member States where it is below&amp;nbsp;3 million head. Statistics on&amp;nbsp;sheep population are not&amp;nbsp;expected from the Member States where it is below 500 000 head. Statistics on sheep population are not expected fromthe Member States where it is below 500 000 head.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Therefore, some data are not due and may appear to be missing, due to the ‘cube’ effect of the selection tools in the Eurostat dissemination database (each selected code of a dimension is crossed with each selected code of each other&amp;nbsp;dimension).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Regional livestock population is&amp;nbsp;not mandatory&amp;nbsp;when it is under 75 000 bovine animals, 150 000 pigs, 100 000 sheep and 25 000 goats.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="ACCURACY">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="ACCURACY_OVERALL">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Accuracy is normally accuracy displayed and reflects accuracy of computation. Nevertheless threshold for significance is half of the displayed unit. It means that '0.000' with flag 'n'&amp;nbsp;is&amp;nbsp;lower than&amp;nbsp;0.5 whereas 0.001 is lower than 0.0005. '0.000' without flag 'n' is a true zero, i.e. with full accuracy.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="SAMPLING_ERR">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Regulation (EC) No 1165/2008 states that sampling errors for the results of each Member State shall not exceed (with a confidence interval of 68&amp;nbsp;%):&lt;/p&gt;
+&lt;ul style="text-align: justify;"&gt;
+&lt;li&gt;1&amp;nbsp;% of the total number of bovine animals (5&amp;nbsp;% where the bovine animal population is below 1&amp;nbsp;000&amp;nbsp;000 head);&lt;/li&gt;
+&lt;li&gt;1.5&amp;nbsp;% of the total number of cows (5&amp;nbsp;% where the cow population is below 500&amp;nbsp;000 head);&lt;/li&gt;
+&lt;li&gt;2&amp;nbsp;% of the total number of pigs (5&amp;nbsp;% where the pig population is below 1&amp;nbsp;000&amp;nbsp;000 head); and&lt;/li&gt;
+&lt;li&gt;2&amp;nbsp;% of the total number of sheep and goats (5&amp;nbsp;% where the sheep and goat population is below 1&amp;nbsp;000&amp;nbsp;000 head).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="text-align: justify;"&gt;The Member States report to Eurostat&amp;nbsp;on the actual accuracy but these national figures are not publishable.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Directive 96/16/EC states that the Member States may carry out the milk monthly surveys in the form of sample surveys. In that case, the sampling error must not exceed 1&amp;nbsp;% of the total national [milk] collection (with a confidence interval of 68&amp;nbsp;%).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;No quality criterion is defined in Regulation (EC) No 617/2008 (market Regulation).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="NONSAMPLING_ERR">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Measurement errors are due mainly to lack of harmonisation in statistical methods. For instance, when EU concepts do not fit with national concepts, there may be significant measurement errors. As well over-coverage (surveying units out of the statistical population) may be due to the same, when the harmonised definition of the statistical unit is not implemented. Data providers are expected to correct these deviations.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="TIMELINESS_PUNCT">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="TIMELINESS">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Table 3.1. (see &lt;em&gt;3.1.&lt;/em&gt; &lt;em&gt;data description&lt;/em&gt;) shows the deadlines for the various animal production statistical tables, given relative to the end of the reference period.&lt;br /&gt;The actual &lt;strong&gt;timeliness&lt;/strong&gt; (length of time between the event and availability of the statistical output) can be shorter than the legal timeliness if data are provided earlier. The time lag between the actual release date and the planned (agreed or legal) date is called &lt;strong&gt;punctuality&lt;/strong&gt;.&lt;br /&gt;The actual timeliness for EU results depends on timeliness achieved among Member States. Time taken for data validation and dissemination by Eurostat is also taken into account.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="PUNCTUALITY">
+                    <genericmetadata:Value>&lt;p&gt;Data are normally received within the legal deadlines. However, some countries may experience delays in sending their data to Eurostat due to exceptional circumstances.&lt;/p&gt;
+&lt;p&gt;The below attached document on punctuality intends to summarise punctuality of the Member States without disclosing the bilateral issues between Eurostat and the Member States. Punctuality of the EU results is, for each&amp;nbsp;value, punctuality of the latest Member State.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>FILE</common:AnnotationType>
+                            <common:AnnotationTitle>Punctuality (reference year 2022)</common:AnnotationTitle>
+                            <common:AnnotationText>Annexes/apro_anip_esms_an_3.pdf</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="COHER_COMPAR">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="COMPAR_GEO">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Animal production statistics are mostly comparable over countries and regions with the following exceptions:&lt;/p&gt;
+&lt;ul style="text-align: justify;"&gt;
+&lt;li&gt;The ESS and CPSA&amp;nbsp;agreements may be granted with only some countries&lt;/li&gt;
+&lt;li&gt;A derogation to EU statistical legislation may have been granted&lt;/li&gt;
+&lt;li&gt;The legislation itself provides for differentiated approaches for countries depending on their livestock population (see 12.3 Completeness)&lt;/li&gt;
+&lt;li&gt;Specific agreements with EEA countries and with the Swiss Confederation envisage limit application of the legislation and exceptions to the definitions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="text-align: justify;"&gt;Other non-EU countries may partly implement EU legislation and some concepts may be irrelevant for them. Quality of the statistics is usually not at the same level as for statistics under EU legislation.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Comparability of regional data over time has been and will be affected by changes in the NUTS classification.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COMPAR_TIME">
+                    <genericmetadata:Value>&lt;p&gt;Animal production statistics are largely comparable over time, with the following exceptions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implementation of Regulation (EC) No 1165/2008 (see &lt;a href="https://circabc.europa.eu/d/a/workspace/SpacesStore/5e15e1fa-6350-4e4f-adb4-f849b61406cb/ASA-TE-696.Inventory_of_changes.rev1.doc"&gt;ASA-TE-696.Inventory_of_changes.rev1.doc&lt;/a&gt; )&lt;/li&gt;
+&lt;li&gt;Change&amp;nbsp;in NUTS for regional statistics&lt;/li&gt;
+&lt;li&gt;Other particular changes in the methodology flagged with "b", indicating breaks in the time series&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Major revision may downgrade comparability over time or, when they intend to be corrective, improve it (below attached document)&lt;/p&gt;</genericmetadata:Value>
+                    <genericmetadata:Annotations>
+                        <common:Annotation>
+                            <common:AnnotationType>FILE</common:AnnotationType>
+                            <common:AnnotationTitle>Comparability over time</common:AnnotationTitle>
+                            <common:AnnotationText>Annexes/apro_anip_esms_an_1.pdf</common:AnnotationText>
+                        </common:Annotation>
+                    </genericmetadata:Annotations>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COHER_X_DOM">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Most livestock categories are comparable with certain characteristics from the farm structure survey, but differences in the design of each survey (especially reference date and calibration method) may produce discrepancies in the estimates.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;Milk products are comparable with the Prodcom products, but the recorded flows are different (added value for Prodcom, black box for milk statistics).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COHER_INTERNAL">
+                    <genericmetadata:Value>&lt;p&gt;Internal coherence is insured through pre-validation checks during the data collection&amp;nbsp;(for the same country and the same period) and validation on the data received in Eurostat (time series).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="COST_BURDEN">
+                <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Permanent efforts are&amp;nbsp;done to limit the burden on the respondents and, if relevant on the competent national authorities.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="text-align: justify;"&gt;The design of Regulation (EC) No 1165/2008 makes optional the delivery of some data sets for the countries under a certain threshold. This approach by differentiate intensity of burden relatively to the policy interest is favoured in the new data collection (gentlemen's agreements). This might make difficult using the tables with national values, due to the gaps.&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;Use of administrative sources is favoured (livestock statistics) when it is not the prefered data source (slaughtering, eggs hor hatching).&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;Involvement of the respondents as data users (milk statistics) contributes to a balanced burden.&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;The supply balance sheets, requested previously at national level are now compiled , with few exceptions, at EU level&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;The&amp;nbsp;Strategy on &lt;a href="https://ec.europa.eu/eurostat/web/agriculture/methodology/strategy-beyond-2020"&gt;Agricultural Statistics for 2020 and beyond&lt;/a&gt; provides an opportunity to review the statistical needs.&lt;/li&gt;
+&lt;/ul&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="DATA_REV">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="REV_POLICY">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;Data are revised if figures of higher quality become available.&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;In order to provide fresh statistics, Regulation (EC) No 1165/2008 foresees that provisional livestock statistics are delivered first (in February and September) and definitive results are provided later (in May and October).&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="REV_PRACTICE">
+                    <genericmetadata:Value>&lt;p&gt;Results can be corrected by the countries concerned during the months after data has been sent.&lt;/p&gt;
+&lt;p&gt;For annual milk statistics, after a first validation round, the values which does not return error are published&amp;nbsp;as provisional. Advanced validation is then run, leading either to confirmation or to revision of these values.&lt;/p&gt;
+&lt;p&gt;Revisions of historical data or of long time series are exceptional and&amp;nbsp;the most recent have been documented (see 15.2. Comparability over time).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&amp;nbsp;&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="STAT_PROCESS">
+                <genericmetadata:Value></genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="SOURCE_TYPE">
+                    <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;The data sources may be sample surveys or censuses for milk and livestock statistics. Nevertheless&amp;nbsp;administrative sources may be used for obtaining these results in order to limit burden on the respondents. This is especially the case for bovine livestock. The milk quota registers&amp;nbsp;have been&amp;nbsp;used&amp;nbsp;up to the end of the&amp;nbsp;milk quota regime (April 2015).&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;See also Annex 3 for livestock and meat statistics.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="FREQ_COLL">
+                    <genericmetadata:Value>&lt;p&gt;For most of the data collected, collection frequency is the time granularity of the data, i.e. monthly data are collected monthly and annual data annually.&lt;/p&gt;
+&lt;p&gt;Annual totals provided in tables apro_mk_cola, apro_mt_pann and apro_ec_poula are disseminated at the same time as the data from December.&lt;/p&gt;
+&lt;p&gt;GIP forecast for meat are collected twice a year or, for the countries with a limited livestock population, annually.&lt;/p&gt;
+&lt;p&gt;Data on the structure of dairy enterprises are collected every third year.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COLL_METHOD">
+                    <genericmetadata:Value>&lt;p style="margin: 0cm 0cm 3pt; text-align: justify;"&gt;Data and metadata transmission is executed in the same manner in all three sub-domains. The input consists of the national data which are ready for transmission and the output comprises the CSV data files in EDAMIS (the ESS data transmission system) servers.&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;CNAs transmit regional (where required) and national statistics to Eurostat exclusively via EDAMIS. The data comprise all variables listed in Chapter 2 heading 5 except those for which it is indicated that they are computed by Eurostat. The data comprise five datasets on milk statistics, 16 datasets on livestock and meat production statistics and five datasets on poultry statistics, displayed in Table 2. Special notes about the transmission of some livestock and meat datasets are given in Table 3.&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;The transmission means used is EDAMIS with MSExcel forms. A specific form exists for each dataset, presented as a spreadsheet table. The form sent through EDAMIS is checked for its structure and content and the data sender is notified of the outcome with reference to the error report, if any.&lt;/p&gt;
+&lt;p style="margin: 6pt 0cm; text-align: justify;"&gt;If there is no error and no non-explained warning the data are delivered by EDAMIS as CSV files and loaded by the production system.&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;The domain manager is automatically notified by EDAMIS on the file becoming.&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline;"&gt;Confidential data&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;Each data item is accompanied by a flag which shows whether the data is confidential or not.&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;Regarding milk statistics in particular, 14 countries flag certain items as confidential since three or less dairy enterprises had a significant contribution to the production of milk or of milk products such as powered dairy products.&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline;"&gt;Monitoring of data transmission&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;The monitoring of data transmission starts at the time the collection takes place. Countries which have not provided data in time are notified with a reminder automatically sent by EDAMIS. The Eurostat domain managers contact the data provider if the automatic reminders are without effect. In case of non-response Eurostat contacts the data provider again before sending the formal reminder letter, which is the last step before starting an infringement procedure.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="DATA_VALIDATION">
+                    <genericmetadata:Value>&lt;p style="margin: 0cm 0cm 0pt; text-align: justify;"&gt;&lt;strong&gt;1. Data validation in Member States &lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 3pt; text-align: justify;"&gt;Data validation in Member States is known depending on their reporting.&lt;/p&gt;
+&lt;ul style="text-align: justify;"&gt;
+&lt;li&gt;For &lt;strong&gt;milk statistics&lt;/strong&gt;, Member States validate the data collected from farms and dairies. Comparisons with data obtained from the same dairy/farm in previous collection rounds of the survey and with data from other surveys are usually carried out. Moreover, variables collected from dairies are compared with similar ones collected from farms. No more information about other validation performed by the Member States before data submission to Eurostat is available.&lt;/li&gt;
+&lt;li&gt;For &lt;strong&gt;livestock and meat statistics&lt;/strong&gt;, the information about data validation is scarce. It covers all MSs with the exception of Austria since at the time of writing the present document no quality report was received from the country. &lt;br /&gt;Eleven CNAs report that they implement “real-time” validation of the data they collect, i.e. validation at the moment of collection. 22 CNAs mention explicitly that they validate the data: 18 compare the data with data for the same statistical units from earlier data collections, while 14 CNAs do other comparisons, which are not described. One CNA uses the results of a sample survey to check the data about slaughtering collected monthly from administrative sources.&lt;br /&gt;Reporting of the use of imputation, re-calibration or other correction / adjustment methods is connected explicitly with the treatment of non-response. It cannot therefore be known whether they are also used to correct other errors identified during validation. Re-calibration is used by eight CNAs, to treat non-response in livestock surveys. Imputation is employed by four CNAs in the case of monthly slaughtering statistics and by 14 CNAs for livestock statistics. The most usual imputation method is to take data for the same statistical unit from the previous data collection. A small number of CNAs use donor imputation or take data from other surveys or registers.&lt;/li&gt;
+&lt;li&gt;On &lt;strong&gt;eggs for hatching and chicks&lt;/strong&gt;, no information is available about data validation performed by the Member States before data submission to Eurostat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="margin: 0cm 0cm 0pt; text-align: justify;"&gt;&lt;strong&gt;2. Validation rules agreed with Member States&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin: 6pt 0cm; text-align: justify;"&gt;The validation rules agreed with Member States are documented in a &lt;a href="https://circabc.europa.eu/ui/group/573637de-5c60-4b88-ba53-efbcb345e8a0/library/c2bad0ca-f554-4c6f-afee-0a8d9ba9ec4a?p=1&amp;amp;n=10&amp;amp;sort=modified_DESC"&gt;Handbook on data validation &lt;/a&gt;in animal production statistics.&lt;/p&gt;
+&lt;p style="margin: 6pt 0cm; text-align: justify;"&gt;The validation automatically implemented by EDAMIS are of three severity levels:&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt 51pt; text-align: justify;"&gt;- &lt;span style="text-decoration: underline;"&gt;Error&lt;/span&gt;: a validation rule which must be satisfied. As long as the form contains errors it is rejected;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt 51pt; text-align: justify;"&gt;- &lt;span style="text-decoration: underline;"&gt;Warning&lt;/span&gt;: a validation rule which can be broken. The data sender is required to explain why the rule is broken so that the file is acceptable;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt 51pt; text-align: justify;"&gt;- &lt;span style="text-decoration: underline;"&gt;Information&lt;/span&gt;: a rule which provides feedback. The rule does not lead to reject the file, but its outcome is reported in the error report.&lt;/p&gt;
+&lt;p style="margin: 6pt 0cm; text-align: justify;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline;"&gt;Validation of animal production statistics&lt;br /&gt;&lt;/span&gt;&lt;/strong&gt;&lt;span style="text-decoration: underline;"&gt;Validation, level 0&lt;br /&gt;&lt;/span&gt;After checking that the file structure is compliant with the expected one, it is checked that all mandatory cells contain information (data or flags) and that data types are valid. The flags that can be inserted in the files are pre-defined and available to the data senders as a drop-down list.&lt;br /&gt;All data cells of all transmitted datasets are mandatory with few exceptions:&lt;/p&gt;
+&lt;ul style="text-align: justify;"&gt;
+&lt;li&gt;All data cells for regional data of countries with a single region,&lt;/li&gt;
+&lt;li&gt;Livestock statistics for&amp;nbsp;the regions&amp;nbsp;having fewer than 75 000 bovines, 150 000 pigs, 100 000 sheep or 25 000 goats, if these regions represent 5% or less of the national population of the relevant animals,&lt;/li&gt;
+&lt;li&gt;Data cells regarding optional items (Milk table B, ad hoc aggregates like 'adult bovines' or sub-aggregates for the dairy structure)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style="margin: 0cm 0cm 0pt; text-align: justify;"&gt;&lt;span style="text-decoration: underline;"&gt;Validation, level 1&lt;br /&gt;&lt;/span&gt;Validation of level 1 includes numerous rules specifying the allowed range of values for data cells and also certain rules for consistency between cells (mainly totals and sums of components).&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt; text-align: justify;"&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 0pt; text-align: justify;"&gt;&lt;strong&gt;3. Data validation - detection (Eurostat)&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;The first processing step is to validate the data and load them in the production system. The input to this process are the datasets received and the output are either the data loaded or validation reports and requests to the CNAs for feedback or revised data.&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;It is reminded to the reader that during data transmission automatic validation was performed (see Data collection).&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;Data files are loaded and the Eurostat users can review the available information and the comments made by the CNAs and they can combine data from the available input files and create ad hoc data tables. Automated and non-automated validation is carried out with the tool.&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;&lt;span style="text-decoration: underline;"&gt;Validation, level 2 - detection of outliers&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;The automated validation is the detection of outliers in the received data. Time series are created by retrieving data from earlier reference periods. Each current value is considered aa a possible outlier when it is outside the interval (Q1 – 1.5*(Q3-Q1), Q3 + 1.5* (Q3-Q1)), where Q1 and Q3 denote the first and third quartiles respectively of the corresponding time series. This validation is applied to all cells of the received datasets. Outliers are not necessarily wrong data.&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;&lt;span style="text-decoration: underline;"&gt;Validation, level&amp;nbsp;1 - consistency in the data file&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;Eurostat may implement additional validation rules to check the consistency of the outliers with current data from the same data file. The following types of additional checks are used:&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm 3pt 50.7pt; text-align: justify;"&gt;- &lt;strong&gt;Aggregation of items&lt;/strong&gt;: data items that represent category totals (e.g. total bovine animals) must be equal to the sum of the items representing the different categories, allowing for certain tolerance limits.&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm 3pt 50.7pt; text-align: justify;"&gt;- &lt;strong&gt;Aggregation of regions&lt;/strong&gt;: data items that represent regional totals (e.g. totals at country level) must be equal to the sum of items representing the corresponding sub-regions.&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm 3pt 50.7pt; text-align: justify;"&gt;- &lt;strong&gt;Consistency of totals and partial components&lt;/strong&gt;: sometimes not all categories corresponding to a particular total are collected (e.g. cows’ milk part of which is obtained from dairy cows’ milk, in Table C). In these cases the data items that represent category totals must be greater than or equal to the sum of the items representing the different categories.&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm 3pt 50.7pt; text-align: justify;"&gt;- &lt;strong&gt;Sign of the values&lt;/strong&gt;: all variables should be non-negative. Some variables however regarding milk production in Tables B and C are allowed to receive negative values (e.g. in Table B-Milk production, the variable ‘Input of skimmed milk (USM)’ can be by definition negative in case that the process produces skimmed milk (e.g. cream processing)).&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm 3pt 50.7pt; text-align: justify;"&gt;- &lt;strong&gt;Consistency by size class&lt;/strong&gt;: the average size class of milk collected and volume of milk treated or milk production in dairies enterprises is computed by size category and is checked whether it falls in specified ranges.&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;&lt;span style="text-decoration: underline;"&gt;Validation, level&amp;nbsp;3 - comparison with other data sets&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;Eurostat may implement additional validation rules to check the consistency with related datasets. The following types of additional checks are used:&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm 3pt 50.7pt; text-align: justify;"&gt;- &lt;strong&gt;Correspondence between variables from different data sets&lt;/strong&gt;: same or similar variables from different datasets are compared (e.g. the quantities of products obtained in Table B-Milk Production should be equal to the ones reported in Table H-Milk Protein Contents).&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm 3pt 50.7pt; text-align: justify;"&gt;- &lt;strong&gt;Consistency between variables from different data sets&lt;/strong&gt;: related variables in different tables must be consistent. For example if Quantity of utilized product in Table B-Milk Production is zero (plus tolerance limits) then the Protein content of the same product in Table H-Milk Protein content must be less than 1000 (plus tolerance).&lt;/p&gt;
+&lt;p style="margin: 6pt 0cm; text-align: justify;"&gt;These checks are additional to the consistency checks already implemented in eWF. Since they are not applied to all data items they are not systematic and moreover they are not automated; the user chooses on which items to apply them and which rules to apply, based on intuition.&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;At the end of this step, validated data are forwarded for subsequent processing and production of EU statistics.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. Data validation - correction (Eurostat)&lt;/strong&gt;&lt;/p&gt;
+&lt;p style="margin: 3pt 0cm; text-align: justify;"&gt;Depending on the results of validation Eurostat may decide to reject the dataset or to request feedback from the CNA postponing loading in the production system. In either case it prepares an email to the registered data provider with a report of the validation findings.&amp;nbsp;&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="DATA_COMP">
+                    <genericmetadata:Value>&lt;ul&gt;
+&lt;li style="text-align: justify;"&gt;Calculation of results for country aggregates (e.g. EU-28, EU-27, etc.).&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;Calculation of annual totals based on monthly values&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;Calculation of item aggregates&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;In table apro_ec_poulm, derived series are calculated from the primary data; from these it is possible to estimate numbers of birds and production (eggs) by applying coefficients.&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;Statistics on trade of chicks are drawn from Intrastat/Extrastat (Comext) for six Member States and under their responsibility&lt;/li&gt;
+&lt;li style="text-align: justify;"&gt;On regional statistics, imputation of values to equivalent regions, collected only once (e.g. LU, LU0, LU00)&lt;/li&gt;
+&lt;/ul&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="ADJUSTMENT">
+                    <genericmetadata:Value>&lt;p&gt;None.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="COMMENT_DSET">
+                <genericmetadata:Value>&lt;p style="text-align: justify;"&gt;The current description covers decades of methodology on statistics. It reflects especially the current design of animal production statistics. Usability of the data promotes continuity of the time series, which may downgrade interpretability of the statistics, especially considering the permanent improvement in the statistical production process. Eurostat expects having reached a&amp;nbsp;satisfying trade-off. The data user is nevertheless invited referring to the relevant legislation applicable at the reference date for&amp;nbsp;more accurate analysis involving long time series.&lt;/p&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+        </genericmetadata:AttributeValueSet>
+        <genericmetadata:Annotations>
+            <common:Annotation>
+                <common:AnnotationType>URL</common:AnnotationType>
+                <common:AnnotationTitle>Annex: Methodology for animal production statistics</common:AnnotationTitle>
+                <common:AnnotationURL>https://circabc.europa.eu/ui/group/573637de-5c60-4b88-ba53-efbcb345e8a0/library/8def1e61-0cd8-4890-b36b-722bd73641fe?p=1&amp;n=10&amp;sort=modified_DESC</common:AnnotationURL>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>FOR_PUBLICATION</common:AnnotationType>
+                <common:AnnotationText>YES</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>RELATED_METADATA</common:AnnotationType>
+                <common:AnnotationText>apro_ec_egghen_esmseg</common:AnnotationText>
+                <common:AnnotationURL>https://ec.europa.eu/eurostat/cache/metadata/EN/apro_ec_egghen_esmseg.htm</common:AnnotationURL>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>RELATED_METADATA</common:AnnotationType>
+                <common:AnnotationText>apro_ec_poulm_sims</common:AnnotationText>
+                <common:AnnotationURL>https://ec.europa.eu/eurostat/cache/metadata/EN/apro_ec_poulm_sims.htm</common:AnnotationURL>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>RELATED_METADATA</common:AnnotationType>
+                <common:AnnotationText>apro_mt_esqrs</common:AnnotationText>
+                <common:AnnotationURL>https://ec.europa.eu/eurostat/cache/metadata/EN/apro_mt_esqrs.htm</common:AnnotationURL>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>RELATED_METADATA</common:AnnotationType>
+                <common:AnnotationText>apro_mk_esqrs</common:AnnotationText>
+                <common:AnnotationURL>https://ec.europa.eu/eurostat/cache/metadata/EN/apro_mk_esqrs.htm</common:AnnotationURL>
+            </common:Annotation>
+        </genericmetadata:Annotations>
+    </genericmetadata:MetadataSet>
+</GenericMetadata>
